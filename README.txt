@@ -3,7 +3,7 @@ Using Python transcription factor networks are generated across multiple cancer 
 
 Wrapper file can be run via command line given a correlation input value:
 python PanCancerTFNetworkMotifWrapper.py --correlation 0.5
-Input files are limited to only running 'ACC' tumor type. This can be expanded by modifying the input list of tumor types in the wrapper file.
+Input files are limited to only running 'Example' tumor type. This can be expanded by modifying the input list of tumor types in the wrapper file.
 Default TF family expansion is ON. This can be changed by increasing the integer in the wrapper file from 1 to 2.
 
 
