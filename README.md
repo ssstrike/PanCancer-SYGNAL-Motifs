@@ -2,42 +2,25 @@
 Using Python transcription factor networks are generated across multiple cancer types. Command line version of FANMOD pulls enriched motifs which are analysed and plotted with survival data.
 
 Wrapper file can be run given a correlation input value:
-
 python PanCancerTFNetworkMotifWrapper.py --correlation 0.5
-
 Input files are limited to only running 'ACC' tumor type. This can be expanded by modifying the input list of tumor types in the wrapper file.
-
 Default TF family expansion is ON. This can be changed by increasing the integer in the wrapper file from 1 to 2.
 
 
 File 1)
-
 regulators_vSurv.py
-
 Used to generate a set number of input genes for gene network generation.
-
 Input Files:
-
 1)gbm/gbm_includedBiclusters.csv
-
 -list of bioclusters
-
 2)id_conversion/gene2entrez.csv
-
 -Translation
-
 3)gbm/mature_hsa
-
 -ID to accession number
-
 4)postProcessed_vSurv/postProcessed_tumorType_pita.csv
-
 -Biocluster, Genes, Patients, Tumor Expression, various Tumor Attributes
-
 OutputFiles:
-
 1)RegulatorsOutput/output_vSurv.csv
-
 -Bioclusters from TFs
 
 
