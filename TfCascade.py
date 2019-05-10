@@ -11,7 +11,7 @@ args = parser.parse_args()
 
 # Modifies the regulators_vSurv output files to work with TfCascade
 cluster2tf = {}
-inputFileName = 'RegulatorsOutput/output_vSurv.csv.csv'
+inputFileName = 'RegulatorsOutput/output_vSurv.csv'
 with open(inputFileName,'r') as infile:
     print 'open file: '+inputFileName
     header = infile.readline() # header
