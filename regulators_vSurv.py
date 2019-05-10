@@ -157,8 +157,8 @@ for tf1 in cntTfs:
         intTfs.append(tf1)
 
 # Number of tumors TF discovered for Leukocyte fraction
-with open('RegulatorsOutput/tfTumors_vSurv.csv','w') as outFile:
-    outFile.write('\n'.join([str(i)+','+str(cntTfs[i]) for i in cntTfs.keys()]))
+#with open('RegulatorsOutput/tfTumors_vSurv.csv','w') as outFile:
+#    outFile.write('\n'.join([str(i)+','+str(cntTfs[i]) for i in cntTfs.keys()]))
 
 # Biclusters from intTfs
 keepers = ['tf,bicluster']
