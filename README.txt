@@ -94,7 +94,7 @@ Input Files:
 5)phenotypes_panCancer.csv
 -Patient measurements
 6)Reconstructed_exprs(Folder)
--CSV files with replication expression data sets.
+-CSV files with replication expression data sets. TumorName_GSE_repNumber_extrs_entrez.csv
 Output Files:
 1)PipeOut/TumorsNetMotifs_3node_seq.pdf
 -pfd output of figs
